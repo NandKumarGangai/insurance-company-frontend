@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/insurance-company-frontend/static/css/main.f41d1a88.chunk.css",
-    "main.js": "/insurance-company-frontend/static/js/main.ecfdd069.chunk.js",
-    "main.js.map": "/insurance-company-frontend/static/js/main.ecfdd069.chunk.js.map",
+    "main.js": "/insurance-company-frontend/static/js/main.29b64813.chunk.js",
+    "main.js.map": "/insurance-company-frontend/static/js/main.29b64813.chunk.js.map",
     "runtime-main.js": "/insurance-company-frontend/static/js/runtime-main.6b8e2877.js",
     "runtime-main.js.map": "/insurance-company-frontend/static/js/runtime-main.6b8e2877.js.map",
     "static/js/2.35de2596.chunk.js": "/insurance-company-frontend/static/js/2.35de2596.chunk.js",
@@ -19,6 +19,6 @@
     "static/js/runtime-main.6b8e2877.js",
     "static/js/2.35de2596.chunk.js",
     "static/css/main.f41d1a88.chunk.css",
-    "static/js/main.ecfdd069.chunk.js"
+    "static/js/main.29b64813.chunk.js"
   ]
 }
