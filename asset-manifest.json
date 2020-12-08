@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/insurance-company-frontend/static/css/main.6c28950d.chunk.css",
+    "main.js": "/insurance-company-frontend/static/js/main.63fd795d.chunk.js",
+    "main.js.map": "/insurance-company-frontend/static/js/main.63fd795d.chunk.js.map",
+    "runtime-main.js": "/insurance-company-frontend/static/js/runtime-main.6b8e2877.js",
+    "runtime-main.js.map": "/insurance-company-frontend/static/js/runtime-main.6b8e2877.js.map",
+    "static/js/2.35de2596.chunk.js": "/insurance-company-frontend/static/js/2.35de2596.chunk.js",
+    "static/js/2.35de2596.chunk.js.map": "/insurance-company-frontend/static/js/2.35de2596.chunk.js.map",
+    "static/js/3.8afa5bda.chunk.js": "/insurance-company-frontend/static/js/3.8afa5bda.chunk.js",
+    "static/js/3.8afa5bda.chunk.js.map": "/insurance-company-frontend/static/js/3.8afa5bda.chunk.js.map",
+    "index.html": "/insurance-company-frontend/index.html",
+    "service-worker.js": "/insurance-company-frontend/service-worker.js",
+    "service-worker.js.map": "/insurance-company-frontend/service-worker.js.map",
+    "static/css/main.6c28950d.chunk.css.map": "/insurance-company-frontend/static/css/main.6c28950d.chunk.css.map",
+    "static/js/2.35de2596.chunk.js.LICENSE.txt": "/insurance-company-frontend/static/js/2.35de2596.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.6b8e2877.js",
+    "static/js/2.35de2596.chunk.js",
+    "static/css/main.6c28950d.chunk.css",
+    "static/js/main.63fd795d.chunk.js"
+  ]
+}
