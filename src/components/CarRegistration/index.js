@@ -61,7 +61,7 @@ const CarRegistration = () => {
         }
         fetchData();
     }
-    console.log('err: ', errors);
+
     return (
         <>
             <div className='input-form-container'>

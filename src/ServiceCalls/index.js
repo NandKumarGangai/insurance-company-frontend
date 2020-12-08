@@ -1,8 +1,9 @@
 import axios from 'axios';
 
+const HOST = 'https://insurance-company-xx.herokuapp.com/api/v1';
 
 export const getAllPeopleInfo = () => {
-    return axios.get('/getInfo').then(response => {
+    return axios.get(HOST + '/getInfo').then(response => {
         return response.data;
     }).catch(err => {
         console.error('Error: ', err);
@@ -11,7 +12,7 @@ export const getAllPeopleInfo = () => {
 }
 
 export const getRegisteredPerson = (query) => {
-    return axios.get(`/getPersonInfo/${query}`).then(response => {
+    return axios.get(`${HOST}/getPersonInfo/${query}`).then(response => {
         return response.data;
     }).catch(err => {
         console.error('Error: ', err);
@@ -20,7 +21,7 @@ export const getRegisteredPerson = (query) => {
 }
 
 export const getRegisteredCar = ({ carModel, carMakeYear }) => {
-    return axios.post('/isCarRegistered', {
+    return axios.post(HOST + '/isCarRegistered', {
         car_model: carModel,
         car_make_year: carMakeYear
     }).then(response => {

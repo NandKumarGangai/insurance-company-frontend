@@ -10,6 +10,7 @@ const HomePage = () => {
     useEffect(() => {
         async function fetchData() {
             const records = await getAllPeopleInfo();
+
             if (records.success) {
                 setSuccess(records.success);
                 setAllRecords(records.data);
@@ -33,7 +34,7 @@ const HomePage = () => {
                 </thead>
                 <tbody className='table-body'>
                     {
-                        allRecords.map(record => <DisplayRecord key={record.name} {...record} />)
+                        success && allRecords.map(record => <DisplayRecord key={record.name} {...record} />)
                     }
                 </tbody>
             </table>

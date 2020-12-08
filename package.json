@@ -1,4 +1,5 @@
 {
+  "homepage": "http://NandKumarGangai.github.io/insurance-company-frontend/",
   "name": "client",
   "version": "0.1.0",
   "private": true,
@@ -11,6 +12,7 @@
     "react-dom": "^17.0.1",
     "react-router-dom": "^5.2.0",
     "react-scripts": "4.0.1",
+    "serve": "^11.3.2",
     "web-vitals": "^0.2.4",
     "workbox-background-sync": "^5.1.4",
     "workbox-broadcast-update": "^5.1.4",
@@ -26,10 +28,13 @@
     "workbox-streams": "^5.1.4"
   },
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "serve": "npm run build && serve -d build"
   },
   "eslintConfig": {
     "extends": [
@@ -49,5 +54,8 @@
       "last 1 safari version"
     ]
   },
-  "proxy": "https://insurance-company-xx.herokuapp.com/api/v1/cloud/"
+  "proxy": "https://insurance-company-xx.herokuapp.com/api/v1/",
+  "devDependencies": {
+    "gh-pages": "^3.1.0"
+  }
 }
