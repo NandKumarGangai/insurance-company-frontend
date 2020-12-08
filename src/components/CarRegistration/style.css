@@ -1,0 +1,12 @@
+.has-error {
+  border: 2px solid red !important;
+}
+
+.registered {
+margin-top: 1rem;
+  background-color: rgb(88, 184, 88);
+  padding: 1rem;
+  border: 1px solid rgb(38, 148, 38);
+  border-radius: 5px;
+  color: rgb(29, 20, 20);
+}

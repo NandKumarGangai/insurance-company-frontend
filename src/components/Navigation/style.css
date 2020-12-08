@@ -1,0 +1,29 @@
+.navigation {
+  background-color: #111111;
+  width: 100%;
+}
+
+.navigation > ul {
+  list-style-type: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.navigation-nav {
+  text-decoration: none;
+  color: rgb(147, 173, 196);
+  padding: 1rem 3rem;
+}
+
+.navigation-nav:hover,
+.navigation-nav:focus {
+  color: rgb(233, 237, 240);
+}
+
+@media screen and (max-width: 600px) {
+  .navigation-nav {
+    padding: 1rem;
+  }
+}

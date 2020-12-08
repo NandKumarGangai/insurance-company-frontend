@@ -1,0 +1,49 @@
+.input-form-container {
+  margin-top: 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.input-field-wrapper > * {
+  margin: 0.5rem 0.5rem;
+  padding: 1rem;
+  border-radius: 5px;
+  border: none;
+  outline: none;
+  font-size: 1.2rem;
+}
+
+.input-field-wrapper > button:hover,
+.input-field-wrapper > button:focus {
+  cursor: pointer;
+  background-color: #999;
+}
+
+.has-error {
+  border: 2px solid red;
+}
+
+.no-records {
+  margin-top: 1rem;
+  background-color: rgb(179, 131, 131);
+  padding: 1rem;
+  border: 1px solid rgb(179, 66, 66);
+  border-radius: 5px;
+  color: rgb(29, 20, 20);
+}
+
+@media screen and (max-width: 600px) {
+    .input-form-container {
+        flex-direction: column;
+    }
+
+    .input-field-wrapper > * {
+        margin: 0.5rem 0.2rem;
+        padding: 0.8rem;
+        border-radius: 5px;
+        border: none;
+        outline: none;
+        font-size: 1rem;
+      }
+}

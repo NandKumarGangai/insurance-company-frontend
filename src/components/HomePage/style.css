@@ -1,0 +1,76 @@
+.record-table {
+  border: 1px solid #ccc;
+  border-collapse: collapse;
+  margin: 0;
+  padding: 0;
+  margin: 0% 10%;
+  width: 80%;
+  table-layout: fixed;
+}
+
+.record-table caption {
+  font-size: 1.5em;
+  margin: 0.5em 0 0.75em;
+}
+
+.record-table tr {
+  border: 1px solid #ddd;
+  padding: 0.35em;
+}
+
+.record-table th,
+.record-table td {
+  padding: 0.625em;
+  text-align: center;
+}
+
+.record-table th {
+  font-size: 0.85em;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+}
+
+@media screen and (max-width: 600px) {
+  .record-table {
+    border: 0;
+  }
+
+  .record-table caption {
+    font-size: 1.3em;
+  }
+
+  .record-table .table-header {
+    border: none;
+    clip: rect(0 0 0 0);
+    height: 1px;
+    margin: -1px;
+    overflow: hidden;
+    padding: 0;
+    position: absolute;
+    width: 1px;
+  }
+
+  .record-table tr {
+    border-bottom: 3px solid #ddd;
+    display: block;
+    margin-bottom: 0.625em;
+  }
+
+  .record-table td {
+    border-bottom: 1px solid #ddd;
+    display: block;
+    font-size: 0.8em;
+    text-align: right;
+  }
+
+  .record-table td::before {
+    content: attr(data-label);
+    float: left;
+    font-weight: bold;
+    text-transform: uppercase;
+  }
+
+  .record-table td:last-child {
+    border-bottom: 0;
+  }
+}
