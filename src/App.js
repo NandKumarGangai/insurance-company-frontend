@@ -15,14 +15,14 @@ function App() {
           <Navigation />
         </div>
         <div>
-          <Route exact path="/"><HomePage /></Route>
+          <Route exact path={["/", '/insurance-company-frontend']}><HomePage /></Route>
           <Route exact path="/check-user"><RegisteredPerson /></Route>
           <Route exact path="/car-register"><CarRegistration /></Route>
-          {/* <Route exact path="/home"><HomePage /></Route> */}
         </div>
       </main>
       <footer className='footer'>
-          {'Developed by Nandkumar Gangai.'}
+        {'Developed by'}&nbsp;
+        <strong>{` Nandkumar Gangai.`}</strong>
       </footer>
     </div>
   );
